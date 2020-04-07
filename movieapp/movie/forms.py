@@ -5,3 +5,4 @@ class MovieForm(forms.ModelForm):
 	class Meta:
 		model = movie
 		fields= ['name','location','timing']
+
